@@ -1,0 +1,25 @@
+{
+  "name": "koa-grace-model",
+  "version": "1.0.3",
+  "description": "KOA-grace绑定默认controller组件（与koa-grace-router配合使用）",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=* node --harmony ./example/app"
+  },
+  "keywords": [
+    "koa",
+    "defaultCtrl",
+    "model",
+    "grace-model"
+  ],
+  "dependencies": {
+    "koa": "*"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0",
+    "koa-grace-router": "^1.0.9"
+  },
+  "author": "wilee",
+  "license": "MIT",
+  "repository": "https://github.com/koa-grace/koa-grace-model.git"
+}
